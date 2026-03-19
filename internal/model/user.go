@@ -13,6 +13,8 @@ type User struct {
 	Nickname  string         `gorm:"size:100" json:"nickname"`
 	Avatar    string         `gorm:"size:500" json:"avatar"`
 	Bio       string         `json:"bio"`
+	Phone        string  `gorm:"size:20;uniqueIndex:idx_users_phone,where:phone IS NOT NULL" json:"phone"`
+	PhoneVerified bool    `gorm:"default:false" json:"phone_verified"`
 	CreatedAt time.Time      `json:"created_at"`
 	UpdatedAt time.Time      `json:"updated_at"`
 	DeletedAt gorm.DeletedAt `gorm:"index" json:"-"`
