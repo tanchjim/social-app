@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yourorg/social-app/internal/config"
-	"github.com/yourorg/social-app/pkg/jwt"
-	"github.com/yourorg/social-app/pkg/response"
+	"social-app/internal/config"
+	"social-app/pkg/jwt"
+	"social-app/pkg/response"
 )
 
 func Auth(cfg *config.Config) gin.HandlerFunc {

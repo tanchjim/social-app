@@ -2,8 +2,8 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/yourorg/social-app/internal/config"
-	"github.com/yourorg/social-app/pkg/response"
+	"social-app/internal/config"
+	"social-app/pkg/response"
 )
 
 type UploadHandler struct {

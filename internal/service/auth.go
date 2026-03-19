@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/yourorg/social-app/internal/model"
+	"social-app/internal/model"
 )
 
 type AuthService interface {

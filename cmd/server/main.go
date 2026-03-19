@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/yourorg/social-app/internal/config"
-	"github.com/yourorg/social-app/internal/router"
+	"social-app/internal/config"
+	"social-app/internal/router"
 )
 
 func main() {

@@ -2,9 +2,9 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/yourorg/social-app/internal/config"
-	"github.com/yourorg/social-app/internal/handler"
-	"github.com/yourorg/social-app/internal/middleware"
+	"social-app/internal/config"
+	"social-app/internal/handler"
+	"social-app/internal/middleware"
 )
 
 func Setup(cfg *config.Config) *gin.Engine {

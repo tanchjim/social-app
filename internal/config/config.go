@@ -36,8 +36,8 @@ type Config struct {
 }
 
 func Load() *Config {
-	// Load .env file if exists
-	godotenv.Load()
+	// Load .env file if exists (ignore error if file not found)
+	_ = godotenv.Load()
 
 	return &Config{
 		ServerPort: getEnv("SERVER_PORT", "8080"),

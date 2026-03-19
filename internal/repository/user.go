@@ -2,9 +2,8 @@ package repository
 
 import (
 	"context"
-	"time"
 
-	"github.com/yourorg/social-app/internal/model"
+	"social-app/internal/model"
 )
 
 type UserRepository interface {

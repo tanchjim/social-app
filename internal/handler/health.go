@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yourorg/social-app/pkg/response"
+	"social-app/pkg/response"
 )
 
 func HealthCheck(c *gin.Context) {

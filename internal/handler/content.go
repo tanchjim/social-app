@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/yourorg/social-app/pkg/response"
+	"social-app/pkg/response"
 )
 
 type ContentHandler struct{}
